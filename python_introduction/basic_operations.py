@@ -1,5 +1,5 @@
-number1 = int(input("Whats the value for first number? "))
-number2 = int(input("What's the value for second number? "))
+number1 = 10
+number2 = 5
 
 add = number1 + number2
 sub = number1 - number2
