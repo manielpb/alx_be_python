@@ -1,10 +1,10 @@
-number_1 = int(input("Whats the value for first number? "))
-number_2 = int(input("What's the value for second number? "))
+number1 = int(input("Whats the value for first number? "))
+number2 = int(input("What's the value for second number? "))
 
-add = number_1 + number_2
-sub = number_1 - number_2
-mul = number_1 * number_2
+add = number1 + number2
+sub = number1 - number2
+mul = number1 * number2
 
-print("Addition of", number_1, "and", number_2, "is", add)
-print("Subtraction of", number_1, "and", number_2, "is", sub)
-print("Multiplication of", number_1, "and", number_2, "is", mul)
+print("Addition of", number1, "and", number2, "is", add)
+print("Subtraction of", number1, "and", number2, "is", sub)
+print("Multiplication of", number1, "and", number2, "is", mul)
