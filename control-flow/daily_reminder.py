@@ -12,13 +12,13 @@ match Priority:
     case "low":
         reminder = f"Your task '{Task}' is LOW priority."
     case _:
-        reminder = f"Your task '{Task}' has an UNKNOWN priority."
+        Reminder = f"Your task '{Task}' has an UNKNOWN priority."
         
 
 if Time_bound == "yes":
-    reminder += " That requires immediate attention today!"
+    Reminder += " That requires immediate attention today!"
 
 
 print("\nToday's Reminder:")
 for i in range(1):  
-    print(reminder)
+    print(Reminder)
