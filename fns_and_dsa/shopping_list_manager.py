@@ -12,7 +12,7 @@ def main():
         choice =input("Enter your choice: ")
 
         if choice == '1':
-            add_item = input("Enter item to add: ")
+            add_item = input("Enter the item to add: ")
             shopping_list.append(add_item)
             pass
         elif choice == '2':
@@ -26,7 +26,7 @@ def main():
             print("Goodbye!")
             break
         else: 
-            print("Invalid choice. Please try again."
+            print("Invalid choice. Please try again.")
                 
 if __name__ == "__main__":
     main()
