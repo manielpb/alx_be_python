@@ -13,6 +13,8 @@ c_or_f = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 
 if c_or_f == "F":
     print(f"{temperature}°F is {  convert_to_celsius(temperature) }°C")
-else: 
+elif c_or_f == "C": 
     print(f"{temperature}°C is { convert_to_fahrenheit(temperature)}°F")
+else: 
+    print("Invalid temperature. Please enter a numeric value.")
 
